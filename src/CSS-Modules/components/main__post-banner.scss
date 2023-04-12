@@ -1,5 +1,5 @@
 #post-banner {
-    min-height: 40vh;
+    min-height: 80vh;
     color: white;
     background-color: #000000;
 
@@ -15,9 +15,37 @@
     }
 
     .post-banner_thumbnail{
-        max-width: 25rem;
+        max-width: 90vw;
+        max-height: 65vh; 
         object-fit:contain;
-        border: 2px solid $mColor;
+        border: 2px solid $gold;
         border-radius: 10px;
     }
+    
+
+    @media (max-width: 700px) {
+
+        .post-title{
+            h1 {
+                font-size:3.5rem !important;
+            }
+        }        
+
+        .post-banner_thumbnail{
+            max-height: 80vh;
+        }
+
+    }
+    @media (max-width: 400px) {
+
+        .post-title{
+            h1 {
+                font-size:1rem !important;
+            }
+        }
+        .post-banner_thumbnail{
+            max-height: 100vh;
+        }
+    }
+    
 }

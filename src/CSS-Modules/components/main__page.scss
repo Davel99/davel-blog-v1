@@ -4,10 +4,6 @@
     align-items: center;
     width: 100%;
     min-height: $minMainHeight;
-    padding: 3rem;
-    background-size: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
 }
 
 #page-title{
@@ -18,7 +14,6 @@
         color:white;
         text-align: center;
         font-size: 4rem;
-        font-family: $fontFamily;
     }
 }
 

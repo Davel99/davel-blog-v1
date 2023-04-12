@@ -1,0 +1,41 @@
+.fp-banner{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    min-height: $minMainHeight;
+
+    .slanted-container{
+        min-height: $minMainHeight;
+        width: 50%;
+        color: white;
+        padding: 3rem 4.5rem;       
+
+        h3{
+            font-size: 3.5rem;
+            font-weight: bold;
+            text-shadow: $txtShadow_Grey;
+        }
+        p{
+            font-size: 1.75rem;
+        }
+
+        a{
+            margin-top: 3rem;
+            width: 35%;
+        }
+    }
+
+    .right{
+        clip-path: polygon(0 0, 100% 0%, 65% 100%, 0% 100%);  
+    }
+
+    .left{
+        clip-path: polygon(35% 100%, 0 0, 100% 0, 100% 100%);
+        text-align: right;
+        margin-left: auto; 
+        margin-right: 0;
+    }
+    
+}
+

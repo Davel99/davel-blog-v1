@@ -1,29 +1,34 @@
-<?php get_header() ?>
+<?php get_header(); ?>
 
+<?php 
 
-<div id="front-banner" class="row p-3" style="background-image: url(<?= get_template_directory_uri(); ?>/assets/images/venturtam-fondo.png);">
-    <div class="col-lg-6 m-auto">
-        <img class="main-logo logo-pulse d-flex m-auto" src="<?= get_template_directory_uri(); ?>/assets/images/venturtam-logo.png" alt="" srcset="">
+$content = get_the_content();
+$info = array('content' => $content);
+get_template_part('template-parts/page','banner', $info); 
+?>
 
-    </div>
-    <div class="col-lg-6 m-auto">
-        <a href="" class="banner-btn btn bg-danger">
-            <i class="fa-solid fa-users-between-lines"></i>
-            NOSOTROS
-        </a>
-        <a href="" class="banner-btn btn bg-danger">
-            <i class="fa-regular fa-calendar"></i>
-            CALENDARIO DE VIAJES
-        </a>
-        <a href="" class="banner-btn btn bg-danger">
-            <i class="fa-solid fa-plane-circle-check"></i>
-            DESTINOS
-        </a>
-        <a href="" class="banner-btn btn bg-danger">
-            <i class="fa-brands fa-wordpress"></i>
-            BLOG
+<div class="fp-banner" style="background-image: url(<?= get_theme_file_uri('/images/credit-card-bg-1.jpg'); ?>);">
+    <div class="slanted-container right bg-warning">
+        <h3>¿Buscando la mejor tarjeta?</h3>
+        <p>Los mejores clientes merecen la mejor atención</p>
+        <a href="" class="btn btn-success">
+            Saber más
         </a>
     </div>
+    
 </div>
 
-<?php get_footer() ?>
+<div class="fp-banner" style="background-image: url(<?= get_theme_file_uri('/images/teamwork-bg-2.jpg'); ?>);">
+    <div class="slanted-container left bg-danger">
+        <h3>Entérate de las últimas noticias</h3>
+        <p>Más sobrevive quien mejor se prepara</p>
+        <a href="" class="btn btn-success">
+            Saber más
+        </a>
+    </div>
+    
+</div>
+
+
+
+<?php get_footer(); ?>

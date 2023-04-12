@@ -13,33 +13,28 @@
     background-size: 200%;
     background-position: left;
 }
-.venturtam-content-card {
+.crtolg-content-card {
     background-color: white;
-    border: 2px solid $mColor;
+    border: 2px solid $gold;
     border-radius: 10px;
     padding: 2rem;
 }
 
 .gral-icon-container {
-    display: flex;
-    align-items: center;
-    font-size: 1.25rem;
+    font-size: 1.5rem;
+    padding: 1px;
     text-align: center;
-    background-color: $mColorBg;
-    justify-content: center;
-    padding-left: 2.5rem;
-    padding-right: 2.5rem;
 
     a {
         text-decoration: none;
-        color:gainsboro !important;
-        transition: $gralTransition;
-        padding-left: 20px;
+        color: white;
+        transition: all 300ms;
+        padding-left: 10px;
     }
 
     a:hover {
-        transform: scaleX(1.15);
-        color:white !important;
+        font-size: 1.75rem;
+        color: $mColor;
     }
 }
 
@@ -60,17 +55,22 @@
 }
 
 .gral-post-container:hover{
-    border: 4px solid $mColor;
+    border: 4px solid $gold;
     background-color: $mColorH;
-    transform: scale(1.03); 
+    transform: scale(1.05); 
 
 }
 
 .gral-post-img-container{
     border-right: 1px solid black;
-    
-    i{
-        font-size: 4rem;
+    overflow: hidden;
+    padding: 0 !important;
+    div {
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
     }
 }
 

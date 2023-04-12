@@ -1,7 +1,7 @@
 {
-    "name": "venturtam-theme",
+    "name": "elcreditologo-theme",
     "version": "1.0.0",
-    "description": "Tema de WP para Venturtam, agencia de viajes",
+    "description": "Tema de WP para El Creditologo, canal de Youtube",
     "main": "index.js",
     "scripts": {
         "build": "wp-scripts build",

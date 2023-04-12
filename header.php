@@ -9,79 +9,88 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-dark navbar-expand-xxl" id="main-navbar">
-            <div class="container-fluid p-0">
-                <a class="navbar-brand brand-container px-5" href="<?= site_url() ?>">
-                    <img src="<?= get_template_directory_uri(); ?>/assets/images/venturtam-logo.png" alt="" width="40" class="pt-1">
-                    <span id="brandName">VENTURTAM</span>
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-navbar-action" aria-controls="main-navbar-action" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="main-navbar-action">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link" href="<?= site_url() ?>/blog">
-                                <i class="fa-brands fa-wordpress"></i>
-                                Blog
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="<?= site_url() ?>/nosotros">
-                                <i class="fa-solid fa-users-between-lines"></i>
-                                Nosotros
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="<?= site_url() ?>/viajes">
-                                <i class="fa-regular fa-calendar"></i>
-                                Calendario de viajes
-                            </a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a class="nav-link" href="<?= site_url() ?>/destinos">
-                                <i class="fa-solid fa-plane-circle-check"></i>
-                                Destinos
-                            </a>
-                        </li>
-
-                        <!-- <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                <i class="fa-solid fa-plane-circle-check"></i>
-                                Destinos
-                            </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                <li><a class="dropdown-item" href="#">Another action</a></li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
-                            </ul>
-                        </li> -->
-
-                        <li class="nav-item">
-                            <a class="nav-link" href="<?= site_url() ?>/contacto">
-                                <i class="fa-solid fa-address-book"></i>
-                                ¡Contáctanos!
-                            </a>
-                        </li>
-
-                    </ul>
-
-                    <div class="gral-icon-container navbar-text">
-                        <a href="https://facebook.com/venturtam" target="_blank">
+        <div id="header-banner" class="py-4">
+            <div class="m-0 row">
+                <div class="col-md-8">
+                    <div class="title-container">
+                        <div class="gral-gold-title">
+                            El creditologo
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="gral-icon-container">
+                        <a href="#">
                             <i class="fa-brands fa-square-facebook"></i>
                         </a>
-                        <a href="https://instagram.com/venturtam" target="_blank">
-                            <i class="fa-brands fa-instagram"></i>
+                        <a href="#">
+                            <i class="fa-brands fa-youtube"></i>
                         </a>
-                        <a href="https://wa.link/sgqbxc" target="_blank">
-                            <i class="fa-brands fa-whatsapp"></i>
+                        <a href="#">
+                            <i class="fa-solid fa-u"></i>
                         </a>
 
                     </div>
                 </div>
             </div>
+        </div>
+
+        <nav class="navbar navbar-expand-lg navbar-dark" id="main-navbar">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="justify-content-center collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="<?= site_url()?>">
+                                <i class="fa-solid fa-house"></i>
+                                Inicio
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="<?= site_url()?>/blog">
+                                <i class="fa-brands fa-wordpress"></i>
+                                Blog
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="<?= site_url()?>/contacto">
+                                <i class="fa-solid fa-address-book"></i>
+                                Contacto
+                            </a>
+                        </li>
+                        <li class="dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="productos-financieros-list" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="fa-solid fa-wallet"></i>
+                                Productos financieros
+                            </a>
+                            <ul class="dropdown-menu bg-dark" aria-labelledby="productos-financieros-list">
+                                <li><a class="dropdown-item" href="<?= site_url()?>/tarjetas-de-credito">Tarjetas de crédito</a></li>
+                                <!-- <li><a class="dropdown-item" href="#">Cuentas de ahorro</a></li>
+                                <li><a class="dropdown-item" href="#">Aplicaciones financieras</a></li> -->
+                            </ul>
+                        </li>
+
+                        <!-- <li class="dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="cursos-list" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="fa-solid fa-graduation-cap"></i>
+                                Cursos
+                            </a>
+                            <ul class="dropdown-menu bg-dark" aria-labelledby="cursos-list">
+                                <li><a class="dropdown-item" href="#">Wordpress avanzado</a></li>
+                                <li><a class="dropdown-item" href="#">Javascript de Cero a Experto</a></li>
+                                <li><a class="dropdown-item" href="#">Gestiona tu propio servidor</a></li>
+                            </ul>
+                        </li> -->
+                    </ul>
+                </div>
+            </div>
         </nav>
 
     </header>
-    <main id="main-content">
+    <main>

@@ -1,35 +1,39 @@
-<div id="post-banner" class="m-0 d-flex <?= isset($args['pattern']) ? "pattern_" . $args['pattern'] : "animated-pattern" ?> w-100 bg-primary p-5">
+<div id="post-banner"
+    class="m-0 d-flex <?= isset($args['pattern']) ? "pattern_".$args['pattern'] : "animated-pattern" ?> w-100 bg-primary p-5">
     <div class="post-title my-auto">
-        <?php
+        <?php 
         $thumbnail = get_the_post_thumbnail_url();
-        if (!empty($thumbnail)) :
+        if(!empty($thumbnail)):
         ?>
-            <div class="col-md-12 text-center">
+
+        <div class="m-0 row">
+            <div class="col-lg-6 col-md-12 d-flex justify-content-center">
                 <img src="<?= $thumbnail; ?>" class="post-banner_thumbnail">
 
             </div>
-            <div class="col-md-12 text-center">
-                <h1> <?= get_the_title(); ?></h1>
+            <div class="col-lg-6 col-md-12 d-flex">
+                <h1 class="my-auto"> <?= get_the_title(); ?></h1>
             </div>
+        </div>
 
 
 
-        <?php else : ?>
+        <?php else: ?>
 
-            <h1 class="">
-                <?php if (isset($args['title'])) : echo $args['title']; ?>
-                <?php else : echo get_the_title(); ?>
-                <?php endif; ?>
-            </h1>
+        <h1 class="">
+            <?php if(isset($args['title'])): echo $args['title']; ?>
+            <?php else: echo get_the_title(); ?>
+            <?php endif; ?>
+        </h1>
 
 
         <?php endif; ?>
 
 
-        <?php if (isset($args['content'])) : ?>
-            <div class="page-description">
-                <?= $args['content'] ?>
-            </div>
+        <?php if(isset($args['content'])): ?>
+        <div class="page-description">
+            <?= $args['content'] ?>
+        </div>
         <?php endif; ?>
 
     </div>

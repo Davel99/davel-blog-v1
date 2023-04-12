@@ -1,21 +1,22 @@
 #blog-page-container{
     min-height: $minMainHeight;
-    padding: 1.5rem;
+    padding: 5rem;
     text-align: center;
     background-color: black;
-    background-image: $leafPattern;
+    background-image: $glamurousPattern;
 
     .page-title-container{
         color:white;
-        background-color: $mColor;
-        margin-bottom: 3rem;
+        background-color: rgba(0,0,0,0.85); 
+        margin-bottom: 5rem;
         h1{
-            font-size: 1.5rem;
+            font-size: 4rem;
             font-weight: bold;
-            text-shadow: $txtShadow_Black;
+            text-shadow: $txtShadow_Black;   
+            background-color: rgba(0,0,0,0.60);
         }
         p{
-            font-size: 1rem;
+            font-size: 1.25rem;
             padding: 10px 0;
         }
 

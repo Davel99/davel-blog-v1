@@ -1,31 +1,10 @@
-$gralTransition: all 450ms;
-
-$goldAnimation: linear-gradient(90deg, rgba(186, 148, 62, 1) 0%, rgba(236, 172, 32, 1) 20%, rgba(186, 148, 62, 1) 39%, rgba(249, 244, 180, 1) 50%, rgba(186, 148, 62, 1) 60%, rgba(236, 172, 32, 1) 80%, rgba(186, 148, 62, 1) 100%);
+$goldAnimation: linear-gradient(90deg, rgba(186,148,62,1) 0%, rgba(236,172,32,1) 20%, rgba(186,148,62,1) 39%, rgba(249,244,180,1) 50%, rgba(186,148,62,1) 60%, rgba(236,172,32,1) 80%, rgba(186,148,62,1) 100%);
 
 $txtShadow_Black: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 $txtShadow_White: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 $txtShadow_Grey: -1px 0 grey, 0 1px grey, 1px 0 grey, 0 -1px grey;
 
-$txtShadow_Black-Hover: 10px 10px 10px 5px rgba(0, 0, 0, 0.65);
+$txtShadow_Black-Hover: 10px 10px 10px 5px rgba(0,0,0,0.65);
 
-$boxShadow_Black: 10px 10px 3px 1px rgba(0, 0, 0, 0.6);
-$boxShadow_White: 10px 10px 3px 1px rgba(255, 255, 255, 0.6);
-
-.logo-pulse {
-    animation: pulse-blue 2s infinite;
-}
-
-@keyframes pulse-blue {
-    0% {
-        transform: scale(0.95);
-        box-shadow: 0 0 0 0 rgba(52, 172, 224, 0.7);
-    }
-
-    70% {
-        transform: scale(1);
-    }
-
-    100% {
-        transform: scale(0.95);
-    }
-}
+$boxShadow_Black: 10px 10px 3px 1px rgba(0,0,0,0.6);
+$boxShadow_White: 10px 10px 3px 1px rgba(255,255,255,0.6);
