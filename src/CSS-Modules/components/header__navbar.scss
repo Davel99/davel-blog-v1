@@ -21,7 +21,7 @@
     }
 
     .nav-item:hover {
-        background: $mColor;
+        background: $mColorH;
         transition: all 300ms;
         transform: scaleX(1.15);
 
@@ -35,7 +35,7 @@
     }
 
     .dropdown:hover {
-        background: $mColor;
+        background: $mColorH;
 
         .nav-link {
             color: black;
@@ -49,7 +49,7 @@
     }
 
     .dropdown-item:hover {
-        background-color: $mColor;
+        background-color: $mColorH;
         color: black;
     }
 }
