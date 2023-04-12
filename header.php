@@ -14,7 +14,7 @@
                 <div class="col-md-8">
                     <div class="title-container">
                         <div class="gral-gold-title">
-                            El creditologo
+                            Davel Gomoz
                         </div>
                     </div>
                 </div>
