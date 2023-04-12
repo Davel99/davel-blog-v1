@@ -48,12 +48,12 @@ add_action('init', 'post_types');
 
 
 
-function apphiver_features() {
+function davel_features() {
     add_theme_support('title-tag');
     add_theme_support('post-thumbnails');
     // add_image_size('pageBanner', 1500, 350, true);
   }
   
-  add_action('after_setup_theme', 'apphiver_features');
+  add_action('after_setup_theme', 'davel_features');
 
 ?>
