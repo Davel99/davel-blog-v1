@@ -1,0 +1,99 @@
+.gral-gold-title{
+    font-family: 'Libre Bodoni', serif;
+    width: 100%;
+    font-size: 2.5rem;
+    padding: 5px 0;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 1;
+    text-align: center;
+    background: $goldAnimation;
+    animation: shine 3s infinite;
+    background-size: 200%;
+    background-position: left;
+}
+.venturtam-content-card {
+    background-color: white;
+    border: 2px solid $mColor;
+    border-radius: 10px;
+    padding: 2rem;
+}
+
+.gral-icon-container {
+    display: flex;
+    align-items: center;
+    font-size: 1.25rem;
+    text-align: center;
+    background-color: $mColorBg;
+    justify-content: center;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+
+    a {
+        text-decoration: none;
+        color:gainsboro !important;
+        transition: $gralTransition;
+        padding-left: 20px;
+    }
+
+    a:hover {
+        transform: scaleX(1.15);
+        color:white !important;
+    }
+}
+
+.gral-post-href{
+    text-decoration: none !important;
+}
+
+.gral-post-container{
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: $boxShadow_Black;
+    margin-bottom: 1.5rem;
+    color: black;
+    max-height: 15rem;
+    transition: all 450ms;
+
+}
+
+.gral-post-container:hover{
+    border: 4px solid $mColor;
+    background-color: $mColorH;
+    transform: scale(1.03); 
+
+}
+
+.gral-post-img-container{
+    border-right: 1px solid black;
+    
+    i{
+        font-size: 4rem;
+    }
+}
+
+.gral-post-title{
+    h4{
+        border-bottom: 1px solid black;
+        font-weight: bold;
+        text-decoration: none !important;
+    }
+    p{
+        text-decoration: none !important;
+    }
+}
+
+
+.gral-noposts-container{
+    width: 100%;
+    background-color: $gold;
+    padding: 5px;
+
+    .gral-message{
+        color:black!important;
+        font-size: 3rem;
+        text-shadow: $txtShadow_White;
+    }
+}

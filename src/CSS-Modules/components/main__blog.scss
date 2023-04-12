@@ -1,0 +1,51 @@
+#blog-page-container{
+    min-height: $minMainHeight;
+    padding: 1.5rem;
+    text-align: center;
+    background-color: black;
+    background-image: $leafPattern;
+
+    .page-title-container{
+        color:white;
+        background-color: $mColor;
+        margin-bottom: 3rem;
+        h1{
+            font-size: 1.5rem;
+            font-weight: bold;
+            text-shadow: $txtShadow_Black;
+        }
+        p{
+            font-size: 1rem;
+            padding: 10px 0;
+        }
+
+    }
+
+    .page-filters-container{
+        color:white;
+        font-size: 0.75em;
+        background-color: rgba(0,0,0,0.85);
+        padding: 5px;
+        margin-bottom: 1rem;
+
+        h5{
+            color:white;
+        }
+    }
+}
+
+
+.page-numbers{
+    font-size: 1.5rem !important;
+    text-decoration: none;
+    background-color: white;
+    color:black;
+    padding: 5px 15px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.current{
+    background-color: transparent;
+    color:gray;
+}

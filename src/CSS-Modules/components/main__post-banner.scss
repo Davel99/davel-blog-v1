@@ -1,0 +1,23 @@
+#post-banner {
+    min-height: 40vh;
+    color: white;
+    background-color: #000000;
+
+    .post-title{
+        width: 100%;
+
+        h1 {
+            padding: 2rem 0;
+            font-size: 5rem !important;
+            text-align: center;
+            text-shadow: $txtShadow_Black;            
+        }
+    }
+
+    .post-banner_thumbnail{
+        max-width: 25rem;
+        object-fit:contain;
+        border: 2px solid $mColor;
+        border-radius: 10px;
+    }
+}

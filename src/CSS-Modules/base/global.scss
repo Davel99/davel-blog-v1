@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald:wght@300&display=swap');
+$fontFamily: 'Montserrat', sans-serif, 'Gill Sans MT';
+
+html{
+    font-size: 23px;
+}
+
+body{
+    font-family: $fontFamily;
+    font-size: 0.75rem !important;
+}
+
+header{
+    min-height: $minHeaderHeight;
+}
+
+main{
+    min-height: $minMainHeight;
+}
+
+footer{
+    min-height: $minFooterHeight;
+}
+
+
+@media screen and (max-width: 1201px) {
+    html {
+        font-size: 23px;
+    }   
+
+}
+
+@media screen and (max-width: 1025px) {
+    html {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 769px) {
+    html {
+        font-size: 15px;
+    }
+
+}
