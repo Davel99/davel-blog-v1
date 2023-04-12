@@ -1,21 +1,29 @@
 {
-    "name": "elcreditologo-theme",
-    "version": "1.0.0",
-    "description": "Tema de WP para El Creditologo, canal de Youtube",
-    "main": "index.js",
-    "scripts": {
-        "build": "wp-scripts build",
-        "start": "wp-scripts start",
-        "dev": "wp-scripts start",
-        "devFast": "wp-scripts start",
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "keywords": [],
-    "author": "",
-    "license": "ISC",
-    "dependencies": {
-        "@wordpress/scripts": "*",
-        "bootstrap": "^5.2.3",
-        "normalize.css": "^8.0.1"
-    }
+  "name": "davel-theme",
+  "version": "1.0.0",
+  "description": "Tema de WP para Davel Gomoz",
+  "main": "index.js",
+  "scripts": {
+    "build": "wp-scripts build",
+    "start": "wp-scripts start",
+    "dev": "wp-scripts start",
+    "devFast": "wp-scripts start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Joel D",
+  "license": "ISC",
+  "dependencies": {
+    "@wordpress/scripts": "*",
+    "bootstrap": "^5.2.3",
+    "normalize.css": "^8.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Davel99/davel-blog-v1.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Davel99/davel-blog-v1/issues"
+  },
+  "homepage": "https://github.com/Davel99/davel-blog-v1#readme"
 }
