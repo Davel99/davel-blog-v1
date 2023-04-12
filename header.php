@@ -37,56 +37,41 @@
 
         <nav class="navbar navbar-expand-lg navbar-dark" id="main-navbar">
             <div class="container-fluid">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
-                    aria-label="Toggle navigation">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="justify-content-center collapse navbar-collapse" id="navbarNavDropdown">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="<?= site_url()?>">
+                            <a class="nav-link active" aria-current="page" href="<?= site_url() ?>">
                                 <i class="fa-solid fa-house"></i>
                                 Inicio
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="<?= site_url()?>/blog">
+                            <a class="nav-link" href="<?= site_url() ?>/blog">
                                 <i class="fa-brands fa-wordpress"></i>
                                 Blog
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="<?= site_url()?>/contacto">
+                            <a class="nav-link" href="<?= site_url() ?>/contacto">
                                 <i class="fa-solid fa-address-book"></i>
                                 Contacto
                             </a>
                         </li>
-                        <li class="dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="productos-financieros-list" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                <i class="fa-solid fa-wallet"></i>
-                                Productos financieros
+                        <li class="nav-item">
+                            <a class="nav-link" href="<?= site_url() ?>/libros">
+                                <i class="fas fa-book"></i>
+                                Libros
                             </a>
-                            <ul class="dropdown-menu bg-dark" aria-labelledby="productos-financieros-list">
-                                <li><a class="dropdown-item" href="<?= site_url()?>/tarjetas-de-credito">Tarjetas de crédito</a></li>
-                                <!-- <li><a class="dropdown-item" href="#">Cuentas de ahorro</a></li>
-                                <li><a class="dropdown-item" href="#">Aplicaciones financieras</a></li> -->
-                            </ul>
                         </li>
 
-                        <!-- <li class="dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="cursos-list" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                <i class="fa-solid fa-graduation-cap"></i>
+                        <li class="nav-item">
+                            <a class="nav-link" href="<?= site_url() ?>/cursos">
+                            <i class="fa-solid fa-graduation-cap"></i>
                                 Cursos
                             </a>
-                            <ul class="dropdown-menu bg-dark" aria-labelledby="cursos-list">
-                                <li><a class="dropdown-item" href="#">Wordpress avanzado</a></li>
-                                <li><a class="dropdown-item" href="#">Javascript de Cero a Experto</a></li>
-                                <li><a class="dropdown-item" href="#">Gestiona tu propio servidor</a></li>
-                            </ul>
-                        </li> -->
                     </ul>
                 </div>
             </div>
