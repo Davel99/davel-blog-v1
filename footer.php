@@ -4,7 +4,7 @@
     <div class="col-md-8" id="footer-banner_">
         <div id="footer-banner__container">
             <div class="gral-gold-title">
-                El creditologo
+                Davel Gomoz
             </div>
         </div>
         <div class="gral-icon-container">
@@ -42,13 +42,13 @@
             <div class="col-md-6">
             <a href="#">
                 <i class="fa-solid fa-wallet"></i>
-                Nuestras reseñas
+                Libros
             </a>
             </div>
         </div>
 
         <div id="footer-list__copyright">
-            EL CREDITÓLOGO &copy; <?= date('Y'); ?>
+            DAVEL GOMOZ &copy; <?= date('Y'); ?>
         </div>
 
     </div>
