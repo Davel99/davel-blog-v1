@@ -9,26 +9,42 @@ function apphiver_files()
 
 add_action('wp_enqueue_scripts', 'apphiver_files');
 
-function tdc_type()
+function post_types()
 {
-  register_post_type('tdc', array(
+  register_post_type('book', array(
     'supports' => array('title', 'editor', 'excerpt', 'thumbnail'),
-    'rewrite' => array('slug' => 'tarjetas-de-credito'),
+    'rewrite' => array('slug' => 'libros'),
     'show_in_rest' => true,
     'has_archive' => true,
     'public' => true,
     'labels' => array(
-      'name' => 'Tarjetas de crédito',
-      'add_new_item' => 'Añadir TDC',
-      'edit_item' => 'Editar TDC',
-      'all_items' => 'Todas las TDC',
-      'singular_name' => 'TDC'
+      'name' => 'Libros',
+      'add_new_item' => 'Añadir libro',
+      'edit_item' => 'Editar libro',
+      'all_items' => 'Todos los libros',
+      'singular_name' => 'libro'
     ),
-    'menu_icon' => 'dashicons-money'
+    'menu_icon' => 'dashicons-book-alt'
+  ));
+
+  register_post_type('cursos', array(
+    'supports' => array('title', 'editor', 'excerpt', 'thumbnail'),
+    'rewrite' => array('slug' => 'cursos'),
+    'show_in_rest' => true,
+    'has_archive' => true,
+    'public' => true,
+    'labels' => array(
+      'name' => 'Cursos',
+      'add_new_item' => 'Añadir curso',
+      'edit_item' => 'Editar curso',
+      'all_items' => 'Todos los cursos',
+      'singular_name' => 'curso'
+    ),
+    'menu_icon' => 'dashicons-groups'
   ));
 }
 
-add_action('init', 'tdc_type');
+add_action('init', 'post_types');
 
 
 
