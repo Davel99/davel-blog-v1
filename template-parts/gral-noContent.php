@@ -7,7 +7,7 @@
             <div class="card-body row">
                 <h3 class="card-title text-center col-12">Ooops!</h3>
                 <p class="card-text col-12">
-                    El contenido que buscas no existe. Ve a la página principal y sigue explorando
+                    El contenido que buscas no existe o aún no ha sido cargado. Ve a la página principal y sigue explorando
                 </p>
                 <a href="<?= site_url(); ?>" class="btn btn-danger w-100 mt-auto">
                     <i class="fa-solid fa-arrow-left"></i>

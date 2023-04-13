@@ -11,7 +11,7 @@ add_action('wp_enqueue_scripts', 'apphiver_files');
 
 function post_types()
 {
-  register_post_type('book', array(
+  register_post_type('libros', array(
     'supports' => array('title', 'editor', 'excerpt', 'thumbnail'),
     'rewrite' => array('slug' => 'libros'),
     'show_in_rest' => true,
