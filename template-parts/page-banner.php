@@ -1,5 +1,5 @@
 <div id="post-banner"
-    class="m-0 d-flex <?= isset($args['pattern']) ? "pattern_".$args['pattern'] : "animated-pattern" ?> w-100 bg-primary p-5">
+    class="m-0 d-flex pattern_brick w-100 bg-primary p-5">
     <div class="post-title my-auto">
         <?php 
         $thumbnail = get_the_post_thumbnail_url();
