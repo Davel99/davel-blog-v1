@@ -7,17 +7,9 @@
                 Davel Gomoz
             </div>
         </div>
-        <div class="gral-icon-container">
-            <a href="#">
-                <i class="fa-brands fa-square-facebook"></i>
-            </a>
-            <a href="#">
-                <i class="fa-brands fa-youtube"></i>
-            </a>
-            <a href="#">
-                <i class="fa-solid fa-u"></i>
-            </a>
-        </div>
+        <?php
+            get_template_part('template-parts/gral', 'iconContainer');
+        ?>
     </div>
     <div class="col-md-4" id="footer-list">
         <div class="border rounded border-white m-0 row icon-container">
@@ -40,10 +32,10 @@
                 </a>
             </div>
             <div class="col-md-6">
-            <a href="#">
-                <i class="fa-solid fa-wallet"></i>
-                Libros
-            </a>
+                <a href="#">
+                    <i class="fa-solid fa-wallet"></i>
+                    Libros
+                </a>
             </div>
         </div>
 
