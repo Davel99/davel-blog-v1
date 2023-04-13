@@ -18,11 +18,9 @@ get_header();
 
         <?php if(!empty($_GET['category_name'])): ?>
         <h1>Publicaciones sobre categoría "<?= $_GET['category_name']; ?>"</h1>
-
         <?php else: ?>
-        <h1>Publicaciones de EL CREDITÓLOGO</h1>
-        <p>Revisa las últimas noticias sobre tarjetas de crédito, finanzas y más. Apóyate en este blog para construir
-            una mejor salud financiera</p>
+        <h1>Blog de Davel Gomoz</h1>
+        <p>Revisa las últimas noticias sobre mi contenido</p>
         <?php endif; ?>
 
     </div>
