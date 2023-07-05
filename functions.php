@@ -21,7 +21,7 @@ function post_types()
       'name' => 'Sagas',
       'add_new_item' => 'Añadir sagas',
       'edit_item' => 'Editar sagas',
-      'all_items' => 'Todos los Sagas',
+      'all_items' => 'Todas los Sagas',
       'singular_name' => 'sagas'
     ),
     'menu_icon' => 'dashicons-star-filled'
@@ -37,7 +37,7 @@ function post_types()
       'name' => 'Novelas',
       'add_new_item' => 'Añadir novela',
       'edit_item' => 'Editar novela',
-      'all_items' => 'Todos los Novelas',
+      'all_items' => 'Todas los Novelas',
       'singular_name' => 'novela'
     ),
     'menu_icon' => 'dashicons-book-alt'
