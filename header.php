@@ -52,9 +52,9 @@
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="<?= site_url() ?>/libros">
+                            <a class="nav-link" href="<?= site_url() ?>/novelas">
                                 <i class="fas fa-book"></i>
-                                Libros
+                                Novelas
                             </a>
                         </li>
 
@@ -63,6 +63,7 @@
                             <i class="fa-solid fa-graduation-cap"></i>
                                 Cursos
                             </a>
+                        </li>
                     </ul>
                 </div>
             </div>
