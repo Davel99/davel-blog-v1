@@ -11,6 +11,22 @@ add_action('wp_enqueue_scripts', 'davelgomoz_files');
 
 function post_types()
 {
+  register_post_type('sagas', array(
+    'supports' => array('title', 'editor', 'excerpt', 'thumbnail'),
+    'rewrite' => array('slug' => 'sagas'),
+    'show_in_rest' => true,
+    'has_archive' => true,
+    'public' => true,
+    'labels' => array(
+      'name' => 'Sagas',
+      'add_new_item' => 'Añadir sagas',
+      'edit_item' => 'Editar sagas',
+      'all_items' => 'Todos los Sagas',
+      'singular_name' => 'sagas'
+    ),
+    'menu_icon' => 'dashicons-star-filled'
+  ));
+
   register_post_type('novelas', array(
     'supports' => array('title', 'editor', 'excerpt', 'thumbnail'),
     'rewrite' => array('slug' => 'novelas'),
