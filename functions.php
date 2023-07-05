@@ -11,18 +11,18 @@ add_action('wp_enqueue_scripts', 'apphiver_files');
 
 function post_types()
 {
-  register_post_type('libros', array(
+  register_post_type('novelas', array(
     'supports' => array('title', 'editor', 'excerpt', 'thumbnail'),
-    'rewrite' => array('slug' => 'libros'),
+    'rewrite' => array('slug' => 'novelas'),
     'show_in_rest' => true,
     'has_archive' => true,
     'public' => true,
     'labels' => array(
-      'name' => 'Libros',
-      'add_new_item' => 'Añadir libro',
-      'edit_item' => 'Editar libro',
-      'all_items' => 'Todos los libros',
-      'singular_name' => 'libro'
+      'name' => 'Novelas',
+      'add_new_item' => 'Añadir novela',
+      'edit_item' => 'Editar novela',
+      'all_items' => 'Todos los Novelas',
+      'singular_name' => 'novela'
     ),
     'menu_icon' => 'dashicons-book-alt'
   ));
