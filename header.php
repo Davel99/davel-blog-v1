@@ -57,13 +57,6 @@
                                 Novelas
                             </a>
                         </li>
-
-                        <li class="nav-item">
-                            <a class="nav-link" href="<?= site_url() ?>/cursos">
-                            <i class="fa-solid fa-graduation-cap"></i>
-                                Cursos
-                            </a>
-                        </li>
                     </ul>
                 </div>
             </div>
