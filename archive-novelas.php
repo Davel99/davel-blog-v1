@@ -1,6 +1,6 @@
 <?php get_header() ?>
 
-<div id="archive-tdc-page-container">
+<div id="archive-page-container">
     <div class="page-title-container">
         <h1>Novelas publicadas</h1>
         <p>
@@ -15,7 +15,7 @@
         <div class="row m-0">
             <?php while (have_posts()) : the_post(); ?>
                 <div class="col-md-3 px-5">
-                    <div class="card tdc-card">
+                    <div class="card archive-card">
                         <?php
                         $img = "";
                         if (get_the_post_thumbnail()) {
