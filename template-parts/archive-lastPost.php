@@ -1,5 +1,5 @@
 <div class="col-md-3 px-5">
-    <div class="card tdc-card">
+    <div class="card archive-card">
         <div class="card-img-top">
             <i class="fa-solid fa-person-digging" style="font-size:7.5rem; padding:2.5rem"></i>
         </div>
