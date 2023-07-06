@@ -13,15 +13,17 @@
             <div class="m-0 row">
                 <div class="col-md-8">
                     <div class="title-container">
-                        <div class="gral-gold-title">
-                            Davel Gomoz
-                        </div>
+                        <a class="text-decoration-none" href="<?= site_url() ?>">
+                            <div class="gral-gold-title">
+                                Davel Gomoz
+                            </div>
+                        </a>
                     </div>
                 </div>
                 <div class="col-md-4">
-                  <?php
-                    get_template_part('template-parts/gral','iconContainer');
-                  ?> 
+                    <?php
+                    get_template_part('template-parts/gral', 'iconContainer');
+                    ?>
                 </div>
             </div>
         </div>
