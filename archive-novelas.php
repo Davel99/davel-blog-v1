@@ -35,7 +35,7 @@
                         </a>
 
                         <div class="card-body row">
-                            <h3 class="card-title col-12">
+                            <h3 class="card-title col-12 border-bottom border-secondary pb-3">
                                 <?php the_title(); ?>
                             </h3>
                             <p class="card-text col-12">
