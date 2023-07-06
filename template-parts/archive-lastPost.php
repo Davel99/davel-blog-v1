@@ -1,4 +1,4 @@
-<div class="col-md-3 px-5">
+<div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-3 px-5 mb-5">
     <div class="card archive-card">
         <div class="card-img-top">
             <i class="fa-solid fa-person-digging" style="font-size:7.5rem; padding:2.5rem"></i>

@@ -14,7 +14,7 @@
     <?php if (have_posts()) : ?>
         <div class="row m-0">
             <?php while (have_posts()) : the_post(); ?>
-                <div class="col-md-3 px-5">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-3 px-5 mb-5">
                     <div class="card archive-card">
                         <?php
                         $img = "";
