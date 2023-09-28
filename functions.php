@@ -1,4 +1,5 @@
 <?php
+
 function davelgomoz_files()
 {    
     wp_enqueue_script('main-js', get_theme_file_uri('/build/index.js'), array(), '1.0', true);
@@ -71,5 +72,13 @@ function davel_features() {
   }
   
   add_action('after_setup_theme', 'davel_features');
+
+function getMediaUrls(){
+  return [
+    "facebook" => "/",
+    "tiktok" => "/",
+    "youtube" => "http://youtube.com"
+  ];
+}
 
 ?>
