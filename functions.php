@@ -75,9 +75,9 @@ function davel_features() {
 
 function getMediaUrls(){
   return [
-    "facebook" => "/",
-    "tiktok" => "/",
-    "youtube" => "http://youtube.com"
+    "facebook" => "https://www.facebook.com/davelgomoz",
+    "tiktok" => "https://www.tiktok.com/@davelgomoz",
+    "youtube" => "https://www.youtube.com/@DavelGomoz"
   ];
 }
 
