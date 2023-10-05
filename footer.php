@@ -14,27 +14,27 @@
     <div class="col-md-4" id="footer-list">
         <div class="border rounded border-white m-0 row icon-container">
             <div class="col-md-6">
-                <a href="#">
+                <a href="/">
                     <i class="fa fa-home"></i>
                     Inicio
                 </a>
             </div>
             <div class="col-md-6">
-                <a href="#">
+                <a href="/blog">
                     <i class="fa-brands fa-wordpress"></i>
                     Blog
                 </a>
             </div>
             <div class="col-md-6">
-                <a href="#">
+                <a href="/contacto">
                     <i class="fa-solid fa-address-book"></i>
                     Contacto
                 </a>
             </div>
             <div class="col-md-6">
-                <a href="#">
+                <a href="/novelas">
                     <i class="fa-solid fa-wallet"></i>
-                    Libros
+                    Novelas
                 </a>
             </div>
         </div>
